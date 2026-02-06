@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a 6th semester Computer Science student showcasing projects, skills, and achievements.">
+    <title>Portfolio | Computer Science Student</title>
+    
+    <!-- Google Fonts: Plus Jakarta Sans - modern, readable, professional -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <!-- Fixed navbar for easy section navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========== HERO / ABOUT ME SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-badge">6th Semester • Computer Science</p>
+                <h1 class="hero-title">Hi, I'm <span class="highlight typing-text">Bushra Saleem</span><span class="cursor">|</span></h1>
+                <p class="hero-cgpa">CGPA: <strong>3.81</strong></p>
+                <p class="hero-intro">
+                    A passionate computer science student driven by curiosity and a love for building things. 
+                    I hold two scholarships: <strong>STHP 2023</strong> and <strong>MPCL merit-based</strong>.
+                </p>
+                <p class="hero-tech">
+                    I'm actively learning and building projects in <strong>Python</strong>, <strong>HTML</strong>, 
+                    <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Java</strong>, <strong>C++</strong>, 
+                    <strong>OOP</strong>, <strong>Data Structures</strong>, and <strong>Data Science</strong>.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Skills</h2>
+            <p class="section-subtitle">Technologies and concepts I work with</p>
+            
+            <!-- Backend skills -->
+            <div class="skills-group animate-on-scroll">
+                <h3 class="skills-category">Backend</h3>
+                <div class="skills-tags">
+                    
+                    <span class="skill-tag" data-color="flask">Flask</span>
+                </div>
+            </div>
+
+            <!-- Frontend skills -->
+            <div class="skills-group animate-on-scroll">
+                <h3 class="skills-category">Frontend</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag" data-color="html">HTML</span>
+                    <span class="skill-tag" data-color="css">CSS</span>
+                    <span class="skill-tag" data-color="js">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Programming languages -->
+            <div class="skills-group animate-on-scroll">
+                <h3 class="skills-category">Programming Languages</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag" data-color="python">Python</span>
+                    <span class="skill-tag" data-color="java">Java</span>
+                    <span class="skill-tag" data-color="cpp">C++</span>
+                </div>
+            </div>
+
+            <!-- Core concepts -->
+            <div class="skills-group animate-on-scroll">
+                <h3 class="skills-category">Core Concepts</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag" data-color="oop">OOP</span>
+                    <span class="skill-tag" data-color="ds">Data Structures</span>
+                    <span class="skill-tag" data-color="ml">Data Science</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Projects</h2>
+            <p class="section-subtitle">What I've been building</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Sleep Analysis -->
+                <article class="project-card animate-on-scroll" data-card="1">
+                    <div class="project-header">
+                        <h3>Sleep Analysis Prediction Web App</h3>
+                        <span class="project-badge">ML + Web</span>
+                    </div>
+                    <p class="project-desc">
+                        A web application that predicts and analyzes sleep patterns using machine learning. 
+                        Users can input sleep data and receive insights and predictions.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/busha-saleem/sleep-analysis-and-prediction-ml.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                            GitHub →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2: Book Lending Website -->
+                <article class="project-card featured animate-on-scroll" data-card="2">
+                    <div class="project-header">
+                        <h3>Book Lending Website</h3>
+                        <span class="project-badge">Full Stack</span>
+                    </div>
+                    <p class="project-desc">
+                        A full-stack book lending platform where users can browse, lend, and borrow books. 
+                        Features user authentication and a modern, responsive UI.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Supabase</span><span>Vercel</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/busha-saleem/kitabghar.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                            GitHub →
+                        </a>
+                        <a href="kitab-ghar-ckopp77jy-busha-saleems-projects.vercel.app" target="_blank" rel="noopener noreferrer" class="project-link project-link-live">
+                            Live Demo →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3: Simple Calculator -->
+                <article class="project-card animate-on-scroll" data-card="3">
+                    <div class="project-header">
+                        <h3>Simple Calculator</h3>
+                        <span class="project-badge">2nd Semester</span>
+                    </div>
+                    <p class="project-desc">
+                        A functional calculator built during my 2nd semester. Covers basic arithmetic operations 
+                        with a clean, intuitive interface.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/busha-saleem/java_swing_calculator.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                            GitHub →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO / CV SECTION ========== -->
+    <section class="cv-section" id="cv">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Portfolio & CV</h2>
+            <p class="section-subtitle">Download my resume and explore more work</p>
+            <div class="cv-actions">
+                <a href="cv.pdf" download class="btn btn-primary" id="cvDownload">
+                    Download CV
+                </a>
+                <a href="https://github.com/busha-saleem" target="_blank" rel="noopener noreferrer" class="btn btn-secondary cv-github">
+                    View More on GitHub
+                </a>
+            </div>
+            <p class="cv-note">
+                <!-- Replace "cv.pdf" with your actual CV file path before deploying -->
+                Add your <code>cv.pdf</code> file to the project folder. Update the link above if using a different filename.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Contact</h2>
+            <p class="section-subtitle">Let's connect</p>
+            
+            <div class="contact-wrapper">
+                <!-- Contact info -->
+                <div class="contact-info">
+                    <a href="mailto:bushramalik.bscs23@iba-suk.edu.pk" class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        bushramalik.bscs23@iba-suk.edu.pk
+                    </a>
+
+                    <a href="https://github.com/busha-saleem" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <span class="contact-icon">⌘</span>
+                        GitHub
+                    </a>
+                </div>
+
+                <!-- Contact form: Uses mailto by default. Replace data-email with yours. For Formspree, add action="https://formspree.io/f/YOUR_ID" method="POST" -->
+                <form class="contact-form" id="contactForm" data-email="your.email@example.com">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Bushra Saleem. Built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
