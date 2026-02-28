@@ -429,6 +429,7 @@ body::before {
 .skill-tag[data-color="flask"] { background: linear-gradient(135deg, #000, #2d5016); color: #fff; }
 .skill-tag[data-color="html"] { background: linear-gradient(135deg, #e34f26, #f06529); color: #fff; }
 .skill-tag[data-color="css"] { background: linear-gradient(135deg, #264de4, #2965f1); color: #fff; }
+.skill-tag[data-color="react"] { background: linear-gradient(135deg, #264de8, #2965f1); color: #fff; }
 .skill-tag[data-color="js"] { background: linear-gradient(135deg, #f7df1e, #f0db4f); color: #1a1a2e; }
 .skill-tag[data-color="java"] { background: linear-gradient(135deg, #007396, #ed8b00); color: #fff; }
 .skill-tag[data-color="cpp"] { background: linear-gradient(135deg, #00599c, #004482); color: #fff; }
